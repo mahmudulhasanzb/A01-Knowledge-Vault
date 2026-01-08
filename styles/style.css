@@ -4,5 +4,38 @@
   font-optical-sizing: auto;
 }
 
+.btn{
+  border: none;
+  padding: 16px 12px;
+  border-radius: 4px;
+  color: white;
+  background-color: #469165;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
 /* style */
 
+header{
+  max-width: 1600px;
+  max-height: 92px;
+}
+
+nav{
+  padding: 0 120px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav #menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+  font-size: 16px;
+  color: #000000;
+  line-height: 152%;
+  font-weight: 500;
+}

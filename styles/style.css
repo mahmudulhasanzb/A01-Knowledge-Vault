@@ -20,6 +20,21 @@
   font-weight: 600;
   cursor: pointer;
 }
+
+.section-heading {
+  font-size: 48px;
+  font-weight: 700;
+  color: #001931;
+  margin-bottom: 16px;
+}
+
+.text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #627382;
+  margin-bottom: 44px;
+}
 /* main style start */
 
 header{
@@ -56,6 +71,7 @@ nav .menu li a{
 #banner {
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.275)) , url("../assets/hero-bg.png");
   /* set position */
+  margin-bottom: 134px;
 }
 
 .banner-container {
@@ -108,6 +124,120 @@ nav .menu li a{
   display: flex;
   justify-content: center;
   gap: 16px;
+}
+
+
+/* notes style */
+#notes {
+  padding: 0 120px;
+  text-align: center;
+}
+
+
+.notes-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  gap: 24px;
+}
+
+.notes-card-info {
+  max-width: 322px;
+  max-height: 300px;
+  padding: 24px 24px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 8px rgba(6, 6, 6, 0.136);
+  text-align: center;
+}
+
+.notes-card-info img {
+  background-color: #F95555;
+  width: 32px;
+  margin-bottom: 16px;
+}
+
+.notes-card-info h4{
+  font-size: 24px;
+  font-weight: 600;
+  color: #001931;
+  margin-bottom: 16px;
+}
+
+
+/* brain style */
+#brain {
+  padding: 120px;
+}
+
+.brain-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+  max-width: 1360px;
+}
+
+.brain-content h6 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #30B868;
+  margin-bottom: 16px;
+}
+
+.brain-content p {
+  margin-bottom: 16px;
+}
+
+.check-list {
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.check-list li {
+  font-size: 16px;
+  font-weight: 500;
+  color: #001931;
+  line-height: 20px;
+  margin-bottom: 16px;
+}
+
+.check-list li i {
+  color: #30B868;
+
+}
+
+
+/* early access */
+#early-access {
+  padding: 2px 120px 120px ;
+}
+
+.early-access-content {
+  text-align: center;
+  background-color: #F7F6F2;
+  padding: 80px 40px;
+  border-radius: 12px;
+  gap: 24px;
+}
+
+.early-access-content p {
+  margin-bottom: 24px;
+}
+
+.early-access-content button {
+  margin-bottom: 16px;
+}
+
+.early-access-content .text-1 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #627382;
+  margin-bottom: 0px;
 }
 
 
